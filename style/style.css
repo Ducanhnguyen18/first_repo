@@ -1,0 +1,42 @@
+.game {
+    max-width: 1000px;
+    padding: 40px 15px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+
+.card {
+    background-color: brown;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0px;
+    color: white;
+    border-radius: 4px;
+}
+.card:hover {
+    background-color: rgb(187, 75, 75);
+}
+
+.open {
+    background-color: black;
+    font-size: 44px;
+
+}
+
+.open:hover {
+    background-color: black;
+}
+
+.success {
+    background-color: green;
+    font-size: 44px;
+}
+
+.success:hover {
+    background-color: green;
+}
